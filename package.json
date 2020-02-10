@@ -1,0 +1,20 @@
+{
+  "name": "avrecorder",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "author": "https://github.com/ReLLL/",
+  "license": "ISC",
+  "devDependencies": {
+    "node-addon-api": "^2.0.0",
+    "node-gyp": "^6.1.0"
+  },
+  "dependencies": {
+    "core-util-is": "^1.0.2"
+  }
+}
